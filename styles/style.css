@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+
+}
+
+.header {
+    
+}
+
+.nav_wrapper {
+    background-color: #E1EDE6;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: 60px;
+    display: flex;
+    gap: 0 60px;
+}
+
