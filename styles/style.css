@@ -28,7 +28,7 @@ img {
 }
 
 body {
-
+    color: #2C2D35;
 }
 
 .header {
@@ -50,5 +50,6 @@ body {
     margin-right: 60px;
     display: flex;
     gap: 0 60px;
+    font-size: 20px;
 }
 
