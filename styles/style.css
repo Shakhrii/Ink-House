@@ -21,6 +21,15 @@ img {
     max-width: 100%;
 }
 
+button {
+    padding: 20px 60px;
+    color: #598D66;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #598D66;
+    cursor: pointer;
+}
+
 .container {
     max-width: 1140px;
     padding: 0 15px;
@@ -29,6 +38,8 @@ img {
 
 body {
     color: #2C2D35;
+    line-height: 23px;
+    font-weight: 500;
 }
 
 .header {
@@ -51,6 +62,7 @@ body {
 
 .top {
     height: 621px;
+    margin-bottom: 69px;
 }
 
 .top__inner {
@@ -61,7 +73,6 @@ body {
 
 .title {
     font-size: 60px;
-    font-weight: 500;
     line-height: 66px;
 
 }
@@ -74,24 +85,77 @@ body {
 .subtitle {
     color: #86928B;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 27px;
     margin-bottom: 60px;
 }
 
-.btn__products {
-    padding: 20px 60px;
-    display: inline-flex;
-    color: #598D66;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    background-color: white;
-    border: 1px solid #598D66;
-    cursor: pointer;
+.products__titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
+.products__title {
+    color: #2C2D35;
+    font-size: 40px;
+    line-height: 44px;
+}
 
+.products_tab {
+    display: flex;
+    gap: 32px;
+}
 
+.item__link {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #D4E8D9;
+    color: #2C2D35;
+    font-size: 20px;
+}
+
+.products__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px
+}
+
+.products__card {
+    background-color: #E1EDE6;
+    padding: 20px 20px 30px 20px;
+}
+
+.img__card {
+    width: 310px;
+    height: 422px;
+    margin-bottom: 20px;
+}
+
+.img__author {
+    color: #86928B;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: #2C2D35;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.details {
+    color: #2C2D35;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.price {
+    color: #598D66;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn__buy {
+    width: 100%;
+}
