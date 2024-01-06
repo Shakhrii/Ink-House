@@ -89,6 +89,10 @@ body {
     margin-bottom: 60px;
 }
 
+.products {
+    margin-bottom: 70px;
+}
+
 .products__titles {
     display: flex;
     flex-direction: row;
@@ -159,3 +163,43 @@ body {
 .btn__buy {
     width: 100%;
 }
+
+.new_collection {
+    background-color: #2C2D35;
+    padding: 70px 0;
+}
+
+.new_collection__title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.new_collectin__img {
+    width: 80px;
+    height: 80px;
+}
+
+.new_collection__title_text {
+    color: #F4F6F5;
+    font-size: 40px;
+    line-height: 40px;
+    width: 421px;
+    margin-bottom: 20px;
+}
+
+.new_collection__desc {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 27px;
+    width: 540px;
+    margin-bottom: 60px;
+}
+
+.btn__new_collection {
+    color: #2C2D35;
+    font-size: 20px;
+    background-color: #EEDB6D;
+
+}
+
