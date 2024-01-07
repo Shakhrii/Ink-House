@@ -165,13 +165,42 @@ body {
 }
 
 .new_collection {
+    position: relative;
     padding: 70px 0;
     margin-bottom: 70px;
     background-image: url(../images/collection_bg.png);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center top;
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.new_collection::before {
+    content: '';
+    background-image: url(../images/grain.png);
+    outline: 1px solid red;
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: soft-light;
+}
+
+.new_collection::after {
+    content: '';
+    background: linear-gradient(90deg, rgba(13,43,67,1) 0%, rgba(13,43,67,0.5) 50%, transparent 60%);
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: multiply;
+}
+
+.new-collection__container {
+    position: relative;
+    z-index: 1;
 }
 
 
