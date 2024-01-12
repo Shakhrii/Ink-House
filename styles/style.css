@@ -91,7 +91,6 @@ body {
     font-weight: 700;
     display: flex;
     align-items: center;
-    gap: 8px;
 }
 
 .menu {
@@ -309,4 +308,82 @@ body {
     display: flex;
     gap: 30px;
 }
+
+.footer {
+    background-color: #E1EDE6;
+    padding-top: 23px;
+}
+
+.footer__inner {
+    display: grid;
+    grid-template-columns: 25% auto auto auto 35%; 
+    grid-template-rows: repeat(2, 1fr);
+    align-items: start;
+}
+
+.footer__contacts {
+  grid-area: 2/ 1/ 3/ 2;
+}
+
+.contacts__phone {
+    color: #2C2D35;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.contacts__place {
+    color: #86928B;
+    font-size: 18px;
+}
+
+.footer__reproduction,
+.footer__novelty,
+.footter__about-us {
+    grid-row: 2 span;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.reproduction__title-link, 
+.novelty__title-link,
+.about-us__title-link {
+    color: #2C2D35;
+    font-size: 20px;
+}
+
+.reproduction__link,
+.novelty__link,
+.about-us__link {
+    color: #86928B;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer__social {
+    justify-self: flex-end;
+    
+}
+
+.social-image__link {
+    margin-right: 30px;
+    width: 24px;
+    height: 24px;
+}
+
+.social__item {
+    margin-bottom: 10px;
+}
+
+.copy {
+    color: #86928B;
+    font-family: Raleway;
+    font-size: 12px;
+    line-height: 14.4px; 
+}
+
+.copy__name {
+    margin-bottom: 6px;
+}
+
 
