@@ -33,10 +33,8 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
     font-weight:500;
-  
-  }
+}
 
 a {
     color: inherit;
@@ -112,18 +110,18 @@ body {
     gap: 30px;
 }
 
-.title {
+.top__title {
     font-size: 60px;
     line-height: 66px;
 
 }
 
-.title span {
+.top__title span {
     color: #598D66;
     margin-bottom: 30px;
 }
 
-.subtitle {
+.top__subtitle {
     color: #86928B;
     font-size: 18px;
     line-height: 27px;
@@ -147,12 +145,12 @@ body {
     line-height: 44px;
 }
 
-.products_tab {
+.products__tab {
     display: flex;
     gap: 32px;
 }
 
-.item__link {
+.products__item-link {
     padding: 10px 20px;
     border-radius: 20px;
     background-color: #D4E8D9;
@@ -171,41 +169,42 @@ body {
     padding: 20px 20px 30px 20px;
 }
 
-.img__card {
+.products__card-img {
     width: 310px;
     height: 422px;
     margin-bottom: 20px;
 }
 
-.img__author {
+.products__card-author {
     color: #86928B;
     font-size: 18px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
-.name {
+.products__card-name {
     color: #2C2D35;
     font-size: 30px;
     margin-bottom: 8px;
 }
 
-.details {
+.products__card-details {
     color: #2C2D35;
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-.price {
+.products__card-price {
     color: #598D66;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.btn__buy {
+.products__btn-buy {
     width: 100%;
 }
 
-.new_collection {
+.new-collection {
     position: relative;
     padding: 70px 0;
     margin-bottom: 70px;
@@ -216,7 +215,7 @@ body {
     background-size: cover;
 }
 
-.new_collection::before {
+.new-collection::before {
     content: '';
     background-image: url(../images/grain.png);
     outline: 1px solid red;
@@ -228,7 +227,7 @@ body {
     mix-blend-mode: soft-light;
 }
 
-.new_collection::after {
+.new-collection::after {
     content: '';
     background: linear-gradient(90deg, rgba(13,43,67,1) 0%, rgba(13,43,67,0.5) 50%, transparent 60%);
     position: absolute;
@@ -245,18 +244,18 @@ body {
 }
 
 
-.new_collection__title {
+.new-collection__title {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.new_collectin__img {
+.new-collectin__img {
     width: 80px;
     height: 80px;
 }
 
-.new_collection__title_text {
+.new-collection__title-text {
     color: #F4F6F5;
     font-size: 40px;
     line-height: 40px;
@@ -264,7 +263,7 @@ body {
     margin-bottom: 20px;
 }
 
-.new_collection__desc {
+.new-collection__desc {
     color: #FFF;
     font-size: 18px;
     line-height: 27px;
@@ -272,7 +271,7 @@ body {
     margin-bottom: 60px;
 }
 
-.btn__new_collection {
+.new-collection__btn {
     color: #2C2D35;
     font-size: 20px;
     background-color: #EEDB6D;
@@ -286,7 +285,7 @@ body {
     margin-bottom: 70px;
 }
 
-.our_team {
+.team__details {
     margin: 124px 0 44px 0;
 }
 
@@ -297,14 +296,14 @@ body {
     margin-bottom: 20px;
 }
 
-.our_team__desc {
+.team__desc {
     color: #2C2D35;
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 20px;
 }
 
-.people {
+.team__people {
     display: flex;
     gap: 30px;
 }
@@ -325,13 +324,13 @@ body {
   grid-area: 2/ 1/ 3/ 2;
 }
 
-.contacts__phone {
+.footer__contacts-phone {
     color: #2C2D35;
     font-size: 20px;
     margin-bottom: 8px;
 }
 
-.contacts__place {
+.footer__contacts-place {
     color: #86928B;
     font-size: 18px;
 }
@@ -345,16 +344,16 @@ body {
     gap: 6px;
 }
 
-.reproduction__title-link, 
-.novelty__title-link,
-.about-us__title-link {
+.footer__reproduction-title-link, 
+.footer__novelty-title-link,
+.footer__about-us-title-link {
     color: #2C2D35;
     font-size: 20px;
 }
 
-.reproduction__link,
-.novelty__link,
-.about-us__link {
+.footer__reproduction-link,
+.footer__novelty-link,
+.footer__about-us-link {
     color: #86928B;
     font-size: 18px;
     line-height: 27px;
@@ -365,24 +364,24 @@ body {
     
 }
 
-.social-image__link {
+.footer__social-image-link {
     margin-right: 30px;
     width: 24px;
     height: 24px;
 }
 
-.social__item {
+.footerr__social-item {
     margin-bottom: 10px;
 }
 
-.copy {
+.footer__copy {
     color: #86928B;
     font-family: Raleway;
     font-size: 12px;
     line-height: 14.4px; 
 }
 
-.copy__name {
+.footer__copy-name {
     margin-bottom: 6px;
 }
 
