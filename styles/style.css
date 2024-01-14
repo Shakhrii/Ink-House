@@ -315,9 +315,10 @@ body {
 
 .footer__inner {
     display: grid;
-    grid-template-columns: 25% auto auto auto 35%; 
+    grid-template-columns: 20% auto auto auto 30%; 
     grid-template-rows: repeat(2, 1fr);
     align-items: start;
+    gap: 0 60px;
 }
 
 .footer__contacts {
