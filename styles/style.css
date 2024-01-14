@@ -99,6 +99,26 @@ body {
     font-size: 20px;
 }
 
+.menu__item:hover {
+    color: #598D66;
+}
+
+.menu__item:active {
+    color: #376B44;
+}
+
+.basket:hover {
+    svg path {
+        stroke: rgba(89, 141, 102, 1);
+    }
+}
+
+.basket:active {
+    svg path {
+        stroke: rgba(55, 107, 68, 1);
+    }
+}
+
 .top {
     height: 621px;
     margin-bottom: 69px;
@@ -126,6 +146,16 @@ body {
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 60px;
+}
+
+.top__products-btn:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.top__products-btn:active {
+    background-color: #376B44;
+    color: #F4F6F5;
 }
 
 .products {
@@ -156,6 +186,16 @@ body {
     background-color: #D4E8D9;
     color: #2C2D35;
     font-size: 20px;
+}
+
+.products__item-link:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.products__item-link:active {
+    background-color: #376B44;
+    color: #F4F6F5;
 }
 
 .products__cards {
@@ -202,6 +242,16 @@ body {
 
 .products__btn-buy {
     width: 100%;
+}
+
+.products__btn-buy:hover {
+    background-color: #598D66;
+    color: #F4F6F5;
+}
+
+.products__btn-buy:active {
+    background-color: #376B44;
+    color: #F4F6F5;
 }
 
 .new-collection {
@@ -278,6 +328,16 @@ body {
     border: none;
 }
 
+.new-collection__btn:hover {
+    background-color: #FAEB97;
+}
+
+.new-collection__btn:active {
+    background-color: #D9B949;
+}
+
+
+
 .team__container {
     display: flex;
     gap: 30px;
@@ -326,9 +386,18 @@ body {
 }
 
 .footer__contacts-phone {
+    display: block;
     color: #2C2D35;
     font-size: 20px;
     margin-bottom: 8px;
+}
+
+.footer__contacts-phone:hover {
+    color: #598D66;
+}
+
+.footer__contacts-phone:active {
+    color: #376B44;
 }
 
 .footer__contacts-place {
@@ -338,7 +407,7 @@ body {
 
 .footer__reproduction,
 .footer__novelty,
-.footter__about-us {
+.footer__about-us {
     grid-row: 2 span;
     display: flex;
     flex-direction: column;
@@ -360,6 +429,18 @@ body {
     line-height: 27px;
 }
 
+.footer__reproduction-link:hover,
+.footer__novelty-link:hover,
+.footer__about-us-link:hover {
+    color: #598D66;
+}
+
+.footer__reproduction-link:active,
+.footer__novelty-link:active,
+.footer__about-us-link:active {
+    color: #376B44;
+}
+
 .footer__social {
     justify-self: flex-end;
     
@@ -371,8 +452,20 @@ body {
     height: 24px;
 }
 
-.footerr__social-item {
+.footer__social-item {
     margin-bottom: 10px;
+}
+
+.footer__social-image-link:hover {
+    svg path {
+        fill: #598D66;
+    }
+}
+
+.footer__social-image-link:active {
+    svg path {
+        fill: #376B44;
+    }
 }
 
 .footer__copy {
